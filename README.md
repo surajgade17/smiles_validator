@@ -24,7 +24,6 @@ SMILES (Simplified Molecular Input Line Entry System) is a way to represent  che
 - Batch validate multiple SMILES
 - Compute molecular formula and weight
 - Count number of atoms
-
 ## Sample Output
 ```
 ==================================================
