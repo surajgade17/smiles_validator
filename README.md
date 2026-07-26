@@ -25,6 +25,33 @@ SMILES (Simplified Molecular Input Line Entry System) is a way to represent  che
 - Compute molecular formula and weight
 - Count number of atoms
 
+## Sample Output
+```
+==================================================
+SMILES VALIDATOR — Suraj Gade
+==================================================
+
+SINGLE SMILES VALIDATION:
+  [Valid ✅] CCO
+  [Valid ✅] CC(=O)Oc1ccccc1C(=O)O
+  [Valid ✅] c1ccccc1
+  [Invalid ❌] INVALID_SMILES
+  [Valid ✅] CN1C=NC2=C1C(=O)N(C(=O)N2C)C
+
+BASIC INFO — Aspirin:
+  SMILES: CC(=O)Oc1ccccc1C(=O)O
+  Formula: C9H8O4
+  Weight: 180.16
+  Atoms: 13
+
+BATCH RESULTS:
+  Valid ✅   | CCO
+  Valid ✅   | CC(=O)Oc1ccccc1C(=O)O
+  Valid ✅   | c1ccccc1
+  Invalid ❌ | INVALID_SMILES
+  Valid ✅   | CN1C=NC2=C1C(=O)N(C(=O)N2C)C
+```
+
 ## Tools Used
 - Python 3
 - RDKit
